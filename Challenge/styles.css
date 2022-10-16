@@ -20,8 +20,7 @@ body {
   font-size: 22px;
   text-transform: uppercase;
   background-color: #f7f7f7;
-  padding: 20px;
-  margin: auto;
+  padding: 15px;
 }
 
 /* PRODUCT INFORMATION */
@@ -34,6 +33,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #777;
+  margin-bottom: 20px;
 }
 
 .more-info:link,
@@ -50,10 +50,17 @@ body {
 .details-title {
   text-transform: uppercase;
   font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
 
 .details-list {
   list-style: square;
+  margin-left: 28px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
 }
 
 /* BUTTON */
@@ -64,7 +71,9 @@ body {
   font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
-  text-align: center;
+  padding: 15px;
+  width: 100%;
+  border-top: 4px solid black;
 }
 
 .add-cart:hover {
