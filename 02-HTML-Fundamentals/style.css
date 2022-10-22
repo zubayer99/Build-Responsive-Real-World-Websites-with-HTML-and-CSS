@@ -179,11 +179,11 @@ a:active {
 }
 
 nav a:link {
-  background-color: orangered;
+  /* background-color: orangered;
   margin: 20px;
   padding: 20px;
 
-  display: block;
+  display: block; */
 }
 
 /* Resolving Conflict */
