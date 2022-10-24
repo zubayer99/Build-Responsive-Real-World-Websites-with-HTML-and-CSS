@@ -88,6 +88,7 @@ ol {
 li {
   font-size: 28px;
   margin: 10px;
+  display: inline;
 }
 
 li:last-child {
