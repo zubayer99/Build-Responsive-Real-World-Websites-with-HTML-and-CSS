@@ -33,6 +33,7 @@ article {
 
 .post-header {
   margin-bottom: 50px;
+  /* position: relative; */
 }
 
 . aside {
@@ -203,6 +204,15 @@ button {
   position: absolute;
   bottom: 50px;
   right: 50px;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h3 + p::first-line {
+  /* color: red; */
 }
 
 /* Resolving Conflict */
