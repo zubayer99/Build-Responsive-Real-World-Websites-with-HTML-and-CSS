@@ -217,6 +217,7 @@ h3 + p::first-line {
 
 h2 {
   background-color: orange;
+  position: relative;
 }
 
 h2::after {
@@ -225,6 +226,10 @@ h2::after {
   font-size: 16px;
   font-weight: bold;
   display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 /* Resolving Conflict */
