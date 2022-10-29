@@ -216,7 +216,7 @@ h3 + p::first-line {
 }
 
 h2 {
-  background-color: orange;
+  /* background-color: orange; */
   position: relative;
 }
 
@@ -224,12 +224,13 @@ h2::after {
   content: "TOP";
   background-color: yellow;
   font-size: 16px;
+  color: #444;
   font-weight: bold;
   display: inline-block;
   padding: 5px 10px;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -10px;
+  right: -25px;
 }
 
 /* Resolving Conflict */
