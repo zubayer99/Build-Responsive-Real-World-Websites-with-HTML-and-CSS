@@ -36,6 +36,13 @@ body {
   margin-bottom: 20px;
 }
 
+.sale {
+  background-color: #ec2f2f;
+  color: #f7f7f7;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
 .more-info:link,
 .more-info:visited {
   color: black;
