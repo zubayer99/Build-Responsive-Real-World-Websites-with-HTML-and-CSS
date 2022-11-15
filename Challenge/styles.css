@@ -50,7 +50,7 @@ body {
   text-align: center;
   position: absolute;
   top: -17px;
-  left: -34px;
+  left: -38px;
 }
 
 .more-info:link,
@@ -61,6 +61,15 @@ body {
 .more-info:hover,
 .more-info:active {
   text-decoration: none;
+}
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+}
+
+.color-blue {
 }
 
 /* PRODUCT DETAILS */
