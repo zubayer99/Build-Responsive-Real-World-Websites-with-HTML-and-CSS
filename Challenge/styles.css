@@ -41,6 +41,10 @@ body {
   color: #f7f7f7;
   font-size: 12px;
   text-transform: uppercase;
+  font-weight: bold;
+  padding: 7px 15px;
+  /* display: inline-block; */
+  width: 40px;
 }
 
 .more-info:link,
