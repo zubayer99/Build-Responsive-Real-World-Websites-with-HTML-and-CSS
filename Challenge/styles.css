@@ -13,6 +13,7 @@ body {
   border: 4px solid black;
   width: 825px;
   margin: 50px auto;
+  position: relative;
 }
 
 .product-title {
@@ -45,6 +46,10 @@ body {
   padding: 7px 15px;
   /* display: inline-block; */
   width: 40px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .more-info:link,
