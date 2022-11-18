@@ -266,3 +266,11 @@ footer p {
   margin-right: auto; */
   margin: 0 auto;
 }
+
+.author-img {
+  float: left;
+}
+
+.author {
+  padding-left: 80px;
+}
