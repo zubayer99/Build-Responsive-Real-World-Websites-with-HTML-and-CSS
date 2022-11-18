@@ -297,9 +297,15 @@ nav {
 }
 
 article {
+  background-color: green;
+  width: 900px;
+  float: left;
 }
 
 aside {
+  background-color: red;
+  width: 300px;
+  float: right;
 }
 
 footer {
