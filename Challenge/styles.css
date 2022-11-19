@@ -36,7 +36,7 @@ body {
   width: 243px;
   float: left;
   margin-right: 40px;
-  padding: 20px;
+  padding-top: 20px;
 }
 
 .price {
@@ -51,6 +51,7 @@ body {
   color: #777;
   margin-bottom: 20px;
   float: right;
+  margin-top: 8px;
 }
 
 .sale {
@@ -71,6 +72,7 @@ body {
 
 .product-description {
   clear: both;
+  margin-bottom: 10px;
 }
 
 .more-info:link,
@@ -113,6 +115,7 @@ body {
 .product-details {
   width: 243px;
   float: left;
+  margin-top: 20px;
 }
 
 .details-title {
