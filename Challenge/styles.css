@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  background-color: red;
+  /*   background-color: red; */
 }
 
 .product-img {
@@ -42,7 +42,7 @@ body {
 
 /* PRODUCT INFORMATION */
 .product-info {
-  /* (825-8-250-80)/2 */
+  /*  (825 - 8 - 250 - 80) / 2  */
   width: 243px;
   float: left;
   margin-right: 40px;
@@ -66,18 +66,19 @@ body {
 
 .sale {
   background-color: #ec2f2f;
-  color: #f7f7f7;
+  color: #fff;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
   padding: 7px 15px;
-  /* display: inline-block; */
-  width: 40px;
-  text-align: center;
+  display: inline-block;
   position: absolute;
   top: -17px;
   left: -38px;
+
+  /*   width: 40px;
+  text-align: center; */
 }
 
 .product-description {
