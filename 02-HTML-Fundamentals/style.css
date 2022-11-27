@@ -354,3 +354,15 @@ footer {
   font-weight: normal;
   font-style: italic;
 }
+
+.row {
+  display: flex;
+}
+
+article {
+  flex: 0 0 285px;
+}
+
+aside {
+  flex: 0 0 300px;
+}
