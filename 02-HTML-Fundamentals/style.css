@@ -1,6 +1,4 @@
- 
- ==
- * {
+== * {
   /* border-top: 10px solid #1098ad; */
   margin: 0;
   padding: 0;
@@ -271,12 +269,14 @@ footer p {
   margin: 0 auto;
 }
 
+/* FLOATS */
+
+/*  
 .author-img {
   float: left;
 }
 
 .author {
-  /* padding-left: 80px; */
   float: left;
   margin-top: 10px;
   margin-left: 20px;
@@ -312,6 +312,10 @@ aside {
 
 footer {
   clear: both;
-} 
+}
 
 */
+
+.main-header {
+  display: flex;
+}
