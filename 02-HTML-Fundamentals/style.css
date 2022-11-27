@@ -39,7 +39,7 @@ article {
 }
 
 . aside {
-  background-color: #f7f7f7;
+  background-color: #f7f3f3;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
@@ -318,4 +318,22 @@ footer {
 
 .main-header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
 }
