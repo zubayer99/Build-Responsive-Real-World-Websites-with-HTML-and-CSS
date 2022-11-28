@@ -18,10 +18,10 @@ body {
 .container {
   /*   background-color: red; */
   display: flex;
+  gap: 40px;
 }
 
 .product-img {
-  margin-right: 40px;
 }
 
 /* PRODUCT */
@@ -44,7 +44,7 @@ body {
 .product-info {
   /*  (825 - 8 - 250 - 80) / 2  */
   /* width: 243px; */
-  margin-right: 40px;
+  flex: 1;
   margin-top: 20px;
 }
 
@@ -130,6 +130,7 @@ body {
 .product-details {
   /* width: 243px; */
   margin-top: 20px;
+  flex: 1;
 }
 
 .details-title {
