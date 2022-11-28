@@ -43,8 +43,7 @@ body {
 /* PRODUCT INFORMATION */
 .product-info {
   /*  (825 - 8 - 250 - 80) / 2  */
-  width: 243px;
-  float: left;
+  /* width: 243px; */
   margin-right: 40px;
   margin-top: 20px;
 }
@@ -100,12 +99,15 @@ body {
   text-decoration: none;
 }
 
+.product-colors {
+  display: flex;
+  gap: 10px;
+}
 .color {
   background-color: #000;
   height: 22px;
   width: 22px;
   display: inline-block;
-  margin-right: 10px;
 }
 
 .color-blue {
