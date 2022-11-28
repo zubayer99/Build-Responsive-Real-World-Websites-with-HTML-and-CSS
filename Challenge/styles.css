@@ -17,10 +17,10 @@ body {
 
 .container {
   /*   background-color: red; */
+  display: flex;
 }
 
 .product-img {
-  float: left;
   margin-right: 40px;
 }
 
@@ -128,8 +128,7 @@ body {
 
 /* PRODUCT DETAILS */
 .product-details {
-  width: 243px;
-  float: left;
+  /* width: 243px; */
   margin-top: 20px;
 }
 
