@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Carousel Component</title>
+
+    <style>
+      /*
+            SPACING SYSTEM (px)
+            2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+            FONT SIZE SYSTEM (px)
+            10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+            */
+      /*
+            MAIN COLOR: #087f5b
+            GREY COLOR: #343a40
+            */
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        color: #343a40;
+        line-height: 1;
+      }
+
+      .carousel {
+        width: 800px;
+        margin: 100px auto;
+        background-color: #087f5b;
+      }
+
+      img {
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="carousel"><img src="maria.jpg" alt="Maria de Almeida" /></div>
+    <blockquote class="testimonial">
+      <p class="testimonial-text">
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ex
+        nisi tenetur nam ducimus numquam incidunt rem aliquam! Ea corporis
+        voluptatum harum rem doloribus qui, quae molestiae voluptas possimus
+        earum."
+      </p>
+      <p class="testimonial-author">Maria de Almeida</p>
+      <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
+    </blockquote>
+    <button class="btn">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="btn-icon"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M15.75 19.5L8.25 12l7.5-7.5"
+        />
+      </svg>
+    </button>
+    <button class="btn">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="btn-icon"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M8.25 4.5l7.5 7.5-7.5 7.5"
+        />
+      </svg>
+    </button>
+  </body>
+</html>
