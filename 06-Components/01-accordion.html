@@ -87,9 +87,18 @@
         gap: 12px;
       }
 
-      /* .hidden-box li {
-        margin-bottom: 12px;
-      } */
+      .open {
+        border-top: 4px solid #087f5b;
+      }
+
+      .open .hidden-box {
+        display: block;
+      }
+
+      .open .number,
+      .open .text {
+        color: #087f5b;
+      }
     </style>
   </head>
   <body>
@@ -129,7 +138,7 @@
         </div>
       </div>
 
-      <div class="item">
+      <div class="item open">
         <p class="number">02</p>
         <p class="text">How long do I have to return my chair?</p>
         <svg
