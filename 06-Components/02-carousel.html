@@ -44,7 +44,7 @@
         position: relative;
 
         display: flex;
-        /* align-items: center; */
+        align-items: center;
         gap: 86px;
       }
 
@@ -75,7 +75,7 @@
       }
 
       /* CONTROLS */
-      .btn{
+      .btn {
         background-color: #fff;
         border: none;
         height: 40px;
@@ -83,13 +83,14 @@
         border-radius: 50%;
         position: absolute;
         box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
 
         display: flex;
         align-items: center;
         justify-content: center;
       }
 
-      .btn--left{
+      .btn--left {
         /* IN RELATION TO PARENT ELEMENT */
         left: 0;
         top: 50%;
@@ -97,64 +98,81 @@
         transform: translate(-50%, -50%);
       }
 
-      .btn--right{
+      .btn--right {
         right: 0;
         top: 50%;
 
         transform: translate(50%, -50%);
       }
 
-      .btn-icon{
+      .btn-icon {
         height: 24px;
         width: 24px;
-        stroke:#087f5b;
+        stroke: #087f5b;
+      }
+
+      .dots {
+      }
+
+      .dot {
+        height: 12px;
+        width: 12px;
+        background-color: #fff;
+        border: 2px solid #087f5b;
       }
     </style>
   </head>
   <body>
-    <div class="carousel">
+    <di class="carousel">
       <img src="maria.jpg" alt="Maria de Almeida" />
-    <blockquote class="testimonial">
-      <p class="testimonial-text">
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ex
-        nisi tenetur nam ducimus numquam incidunt rem aliquam! Ea corporis
-        voluptatum harum rem doloribus qui, quae molestiae voluptas possimus
-        earum."
-      </p>
-      <p class="testimonial-author">Maria de Almeida</p>
-      <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
-    </blockquote>
-    <button class="btn btn--left">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="btn-icon"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M15.75 19.5L8.25 12l7.5-7.5"
-        />
-      </svg>
-    </button>
-    <button class="btn btn--right">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="btn-icon"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M8.25 4.5l7.5 7.5-7.5 7.5"
-        />
-      </svg>
-    </button>
+      <blockquote class="testimonial">
+        <p class="testimonial-text">
+          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ex
+          nisi tenetur nam ducimus numquam incidunt rem aliquam! Ea corporis
+          voluptatum harum rem doloribus qui, quae molestiae voluptas possimus
+          earum."
+        </p>
+        <p class="testimonial-author">Maria de Almeida</p>
+        <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
+      </blockquote>
+      <button class="btn btn--left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
+      <button class="btn btn--right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+      </button>
+      <div class="dots">
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+      </div>
+    </di[v>
   </body>
 </html>
