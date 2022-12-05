@@ -82,6 +82,7 @@
         width: 40px;
         border-radius: 50%;
         position: absolute;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 
         display: flex;
         align-items: center;
@@ -89,11 +90,18 @@
       }
 
       .btn--left{
+        /* IN RELATION TO PARENT ELEMENT */
         left: 0;
+        top: 50%;
+        /* In relation to ELEMENT ITSELF */
+        transform: translate(-50%, -50%);
       }
 
       .btn--right{
         right: 0;
+        top: 50%;
+
+        transform: translate(50%, -50%);
       }
 
       .btn-icon{
